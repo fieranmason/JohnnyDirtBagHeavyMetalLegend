@@ -21,17 +21,17 @@
     talker = { lastTime: 0, delay: 1 };
     convos = { curr: '', count: 0, dialogCount: 0, dialog: [
       { text: "Hi.  I'm JOHNNY DIRTBAGS. And I want to be a rockstar!!!",
-        img: '../img/idle.gif' },
+        img: './img/idle.gif' },
       { text: 'Look, I get to wherever I need to go because of ME.',
-        img: '../img/run.gif' },
+        img: './img/run.gif' },
       { text: 'There are a few things I need to do before I can succeed',
-        img: '../img/ledge grab.gif' },
+        img: './img/ledge grab.gif' },
       { text: '... ANd I blame all my problems on this god-forsaken era...',
-        img: '../img/mid air.gif' },
+        img: './img/mid air.gif' },
       { text: 'So whaddya say ..? Want to help me get to the top..?',
-        img: '../img/idle.gif' },
+        img: './img/idle.gif' },
       { text: undefined, img: '../img/idle.gif' },
-    ], wait: false, audio: new Audio( '../audio/typewriter.mp3') };
+    ], wait: false, audio: new Audio( './audio/typewriter.mp3') };
     convos.isDone = function() {
       if ( convos.dialog[ convos.dialogCount ].text === undefined ) {
         return true;
